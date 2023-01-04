@@ -5,16 +5,20 @@ DockerVuln is a whiptail project that facilitate to installation and management 
 ## Getting Started
 --------------------------------------
 When the application runs, you will see a screen like this. YYou can select the application you want to start. You probably won't have an application installed on first run. So, no containers can be seen here. But, you can select 'add a new container' and install a new one. 
+
 ![image](https://user-images.githubusercontent.com/77548038/210498109-4228ee0f-f880-49d9-983b-1b8727dda3b2.png)
 To exit from menu, you can select cancel by pressing the tab keys.
 
 In the adding container menu, you can see indexed containers names and short descriptions. The containers take place indexApp.lst. You can update list to increase options. So, you can basically install the container belongs to vulnerable apps you want.
+
 ![image](https://user-images.githubusercontent.com/77548038/210498653-55fd8d49-9c04-4f6d-b7c1-9941301692c0.png)
 
 In the removing container menu, you can see installed containers. You can basically select the container you want to remove and delete it.
+
 ![image](https://user-images.githubusercontent.com/77548038/210500043-52d16dad-2d58-4b5d-849d-e96e6d450a5b.png)
 
 When a container start, you will see a screen like this. You can reach the app with the browser address "http://localhost". To stop the container, yyou can hit the enter and select yes from the incoming yes/no menu.
+
 ![image](https://user-images.githubusercontent.com/77548038/210500103-0d086b3d-4fc1-4668-9a1f-fbca3f7df388.png)
 
 ### A video tutorial
