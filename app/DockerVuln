@@ -56,7 +56,7 @@ else
   elif [ $CHOICE = "remove" ]
   then
     REMOVE=$(whiptail --menu "Select the container to delete" 18 70 10 "${dockers[@]}" 3>&1 1>&2 2>&3)
-    if [ ! -z "$REMOVE"]
+    if [ ! -z "$REMOVE" ]
     then
       if (whiptail --yesno --defaultno "Remove Container?" 10 50) then
         docker container rm $REMOVE
