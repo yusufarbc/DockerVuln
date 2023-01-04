@@ -49,6 +49,6 @@ No automatic installation support yet. But you can even install Prerequisites an
 ### FreeBSD
 No automatic installation support yet. But you can even install Prerequisites and DockerVuln manually.
 
-## ISSUES
+## Issues
 --------------------------------------
 If you find a bug you can report from github. And also, you can report the apps you want added to indexApp.lst.
