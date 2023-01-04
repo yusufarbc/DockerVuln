@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# Run as Root!
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
+# Get Images
+j=0
+input_file="indexApp.lst"
+input_data=$(cat $input_file | tr \\11 \\7) # replace tabs with alarm bell
+while IFS=$'\a' read DEFAULT_PORT REPOSITORY DESCRIPTON
+do
+  images[j]=$REPOSITORY
+  images[j+1]=$DESCRIPTON
+  j=`expr $j + 2`
+done <<< "$input_data"
+unset 'images[0]'
+unset 'images[1]'
+
+
+# Start Menu
+while [ 1 ]
+var=$(docker ps -a --format "{{.ID}} {{.Names}}")
+unset dockers
+i=0
+for container in $var
+do
+dockers[i]=$container
+i=`expr $i + 1  `
+done
+
+do
+CHOICE=$(whiptail --menu "Select the container to start" 18 100 10 "${dockers[@]}" \
+"add" "add a new container" "remove" "remove an exist container" 3>&1 1>&2 2>&3)
+
+if [ -z "$CHOICE" ]
+then
+  exit
+else
+  # Add Container
+  if [ $CHOICE = "add" ]
+  then
+    RUN=$(whiptail --menu "Select the container to add" 18 100 10 "${images[@]}" 3>&1 1>&2 2>&3)
+    if [ ! -z "$RUN" ]
+    then
+      if (whiptail --yesno "Add Container?" 10 50) then
+        NAME=$(whiptail --inputbox "Please enter a name for the container" 10 50 3>&1 1>&2 2>&3)
+        docker container run -d --name $NAME -p 80:$(cat indexApp.lst | grep -h $RUN | cut -f1) $RUN
+        whiptail --msgbox "$REMOVE container is created" 10 50
+        docker container stop $RUN
+      fi
+    fi
+  # Remove Container
+  elif [ $CHOICE = "remove" ]
+  then
+    REMOVE=$(whiptail --menu "Select the container to delete" 18 70 10 "${dockers[@]}" 3>&1 1>&2 2>&3)
+    if [ ! -z "$REMOVE"]
+    then
+      if (whiptail --yesno --defaultno "Remove Container?" 10 50) then
+        docker container rm $REMOVE
+        whiptail --msgbox "$REMOVE container is removed" 10 50
+      fi
+    fi
+  # Start Container
+  elif (whiptail --yesno "Start Container?" 10 50) then
+    docker container start $CHOICE
+    while [ 1 ]
+    do
+    whiptail --title "Running container $CHOICE" --msgbox "Container is running at localhost:80" 10 50
+    if (whiptail --yesno --defaultno "Stop Container?" 10 50) then
+      docker container stop $CHOICE
+      break
+    fi
+    done
+  fi
+fi
+done
