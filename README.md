@@ -4,7 +4,7 @@ DockerVuln is a whiptail project that facilitate to installation and management 
 
 ## Getting Started
 --------------------------------------
-When the application runs, you will see a screen like this. YYou can select the application you want to start. You probably won't have an application installed on first run. So, no containers can be seen here. But, you can select 'add a new container' and install a new one. 
+When the application runs, you will see a screen like this. You can select the application you want to start. You probably won't have an application installed on first run. So, no containers can be seen here. But, you can select 'add a new container' and install a new one. 
 
 ![image](https://user-images.githubusercontent.com/77548038/210498109-4228ee0f-f880-49d9-983b-1b8727dda3b2.png)
 To exit from menu, you can select cancel by pressing the tab keys.
