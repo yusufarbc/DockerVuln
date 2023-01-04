@@ -35,6 +35,7 @@ DockerVuln uses dockerCLI and Whiptail. So you have to make sure  them already i
 Debian is the preferred operating system. You can install Prerequisites and DockerVuln with the install.sh file.
 ```sh
 git clone https://github.com/yusufarbc/DockerVuln.git
+chmod +x install.sh
 ./install.sh
 
 DockerVuln
