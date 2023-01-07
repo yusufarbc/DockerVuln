@@ -20,7 +20,7 @@ In the removing container menu, you can see installed containers. You can select
 
 When a container start, you will see a screen like this. You can reach the app with the browser address "http://localhost". 
 
-![image](https://user-images.githubusercontent.com/77548038/211137218-8ab5ca8f-b930-454c-bede-c950640b99a6.png)
+![image](https://user-images.githubusercontent.com/77548038/211138768-e001ceff-2d94-4338-84d8-2b30e4b6c82f.png)
 
 To stop the container, you can hit the enter and select yes from the incoming yes/no menu.
 
