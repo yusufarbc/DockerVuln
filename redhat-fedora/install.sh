@@ -12,8 +12,9 @@ dnf -y install newt
 dnf -y install docker-ce
 systemctl start docker.service
 
-cp -f app/indexApp.lst /bin/indexApp.lst
-cp -f app/DockerVuln /bin/DockerVuln
+cd /bin/
+wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/indexApp.lst
+wget -O DockerVuln https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/DockerVuln
 chmod +x /bin/DockerVuln
 
 echo "all done!"

@@ -15,8 +15,9 @@ yum -y install docker
 systemctl start docker.service
 systemctl enable docker
 
-cp -f app/indexApp.lst /bin/indexApp.lst
-cp -f app/DockerVuln /bin/DockerVuln
+cd /bin/
+wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/indexApp.lst
+wget -O DockerVuln https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/DockerVuln
 chmod +x /bin/DockerVuln
 
 echo "all done!"
