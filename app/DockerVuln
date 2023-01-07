@@ -32,7 +32,7 @@ i=`expr $i + 1  `
 done
 
 do
-CHOICE=$(whiptail --menu "Select the container to start" 18 100 10 "${dockers[@]}" \
+CHOICE=$(whiptail --menu "Choose a container to start" 18 100 10 "${dockers[@]}" \
 "add" "add a new container" "remove" "remove an exist container" 3>&1 1>&2 2>&3)
 
 if [ -z "$CHOICE" ]
@@ -42,7 +42,7 @@ else
   # Add Container
   if [ $CHOICE = "add" ]
   then
-    RUN=$(whiptail --menu "Select the container to add" 18 100 10 "${images[@]}" 3>&1 1>&2 2>&3)
+    RUN=$(whiptail --menu "Select a container to add" 18 100 10 "${images[@]}" 3>&1 1>&2 2>&3)
     if [ ! -z "$RUN" ]
     then
       if (whiptail --yesno "Add Container?" 10 50) then
@@ -55,7 +55,7 @@ else
   # Remove Container
   elif [ $CHOICE = "remove" ]
   then
-    REMOVE=$(whiptail --menu "Select the container to delete" 18 70 10 "${dockers[@]}" 3>&1 1>&2 2>&3)
+    REMOVE=$(whiptail --menu "Select a container to delete" 18 70 10 "${dockers[@]}" 3>&1 1>&2 2>&3)
     if [ ! -z "$REMOVE" ]
     then
       if (whiptail --yesno --defaultno "Remove Container?" 10 50) then
