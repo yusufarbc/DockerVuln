@@ -21,9 +21,6 @@ When a container start, you will see a screen like this. You can reach the app w
 
 ![image](https://user-images.githubusercontent.com/77548038/210500103-0d086b3d-4fc1-4668-9a1f-fbca3f7df388.png)
 
-### Manuel Installation Video Tutorial
-
-https://youtu.be/b08DFdoCQSQ
 
 ## Prerequisites
 --------------------------------------
