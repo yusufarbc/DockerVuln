@@ -32,7 +32,7 @@ DockerVuln uses dockerCLI and Whiptail. So you have to make sure them already in
 ## Installation
 --------------------------------------
 ### Debian and Ubuntu
-Kali(debian-basaed) is the preferred operating system. You can install Prerequisites and DockerVuln with the install.sh fe. First of all, you need to be root!
+Kali Linux(debian-based) is the preferred operating system. You can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
 
 ```sh
 sudo su
