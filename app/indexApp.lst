@@ -5,3 +5,6 @@ DEFAULT_PORT	REPOSITORY	DESCRIPTON
 3000	bkimminich/juice-shop	The most modern and sophisticated insecure web-app!
 80	hackersploit/bwapp-docker	This is a simple Docker image for the OWASP bWAPP
 80	justhumanz/web_for_pentest	This was docker version of Web for Pentester 1 from pentesterlab
+80  docker pull selenium/standalone-edge  selenium-framework
+80  remnux/thug Thug Low-Interaction Honeyclient
+80  opensecurity/mobile-security-framework-mobsf  Mobile Security Framework (MobSF)
