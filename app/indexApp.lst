@@ -3,7 +3,7 @@ DEFAULT_PORT	REPOSITORY	DESCRIPTON
 80	vulnerables/web-dvwa	Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application
 80	yavuzlar/vulnlab:latest	A web vulnerability lab project developed by Yavuzlar
 3000	bkimminich/juice-shop	The most modern and sophisticated insecure web-app!
-80	raesene/bwapp	This is a simple Docker image for the OWASP bWAPP
+80	raesene/bwapp	  This is a simple Docker image for the OWASP bWAPP
 80	justhumanz/web_for_pentest	This was docker version of Web for Pentester 1 from pentesterlab
 8080	psiinon/bodgeit		The BodgeIt Store is a vulnerable web app
 8080	aabashkin/niva		NoSQL Injection Vulnerable App (NIVA) 
