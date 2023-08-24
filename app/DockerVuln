@@ -6,6 +6,9 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
+# Go to work directory
+cd /bin
+
 # Get Images
 j=0
 input_file="/bin/indexApp.lst"
