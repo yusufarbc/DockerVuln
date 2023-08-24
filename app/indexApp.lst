@@ -10,3 +10,4 @@ DEFAULT_PORT	REPOSITORY	DESCRIPTON
 80	sasanlabs/owasp-vulnerableapp	OWASP VulnerableApp
 8000	pygoat/pygoat	intentionally web Application Security in django 
 80	roottusk/vapi	vAPI Vulnerable Adversely Programmed Interface
+80  tuxotron/xvwa  Xtreme Vulnerable Web Application.
