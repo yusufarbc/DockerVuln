@@ -1,6 +1,6 @@
 # DockerVuln
 --------------------------------------
-DockerVuln is a whiptail project that facilitate to installation and management of vulnerable application docker containers.
+DockerVuln is a whiptail project that facilitate to installation and management of vulnerable application docker containers. Whiptail is a TUI(Text User Interface) environment running in linux terminal.
 
 ## Getting Started
 --------------------------------------
