@@ -8,8 +8,7 @@
 [![Top Language](https://img.shields.io/github/languages/top/yusufarbc/webvuln-runner?style=flat-square)](https://github.com/yusufarbc/webvuln-runner)
 [![Repo Size](https://img.shields.io/github/repo-size/yusufarbc/webvuln-runner?style=flat-square)](https://github.com/yusufarbc/webvuln-runner)
 
-<strong>EN:</strong> Docker-based TUI & static web dashboard to launch 15+ vulnerable web app labs (OWASP Juice Shop, DVWA, WebGoat, etc.) instantly.<br/>
-<strong>TR:</strong> 15+ web güvenlik laboratuvarını (OWASP Juice Shop, DVWA, WebGoat vb.) Docker ile tek komutla başlatan TUI ve web arayüz.
+Docker-based TUI & static web dashboard to launch 15+ vulnerable web app labs (OWASP Juice Shop, DVWA, WebGoat, etc.) instantly.
 
 </div>
 
