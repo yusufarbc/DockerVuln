@@ -11,11 +11,8 @@ DockerVuln is a project that facilitates the installation and management of vuln
 --------------------------------------
 DockerVuln is designed to help you understand various security concepts.
 
-### SQL Injection
 ![SQL Injection](assest/SQL-image.jpeg)
 
-### Modern vs Traditional Architecture
-![Architecture](assest/traditional-vs-serverless.jpeg)
 
 ## Getting Started
 --------------------------------------
