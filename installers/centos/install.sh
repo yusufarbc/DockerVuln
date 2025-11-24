@@ -18,8 +18,8 @@ yum install -y wget
 
 cd /bin/
 wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/indexApp.lst
-wget -O DockerVuln https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/DockerVuln
-chmod +x /bin/DockerVuln
+wget -O WebVuln-Runner https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/WebVuln-Runner
+chmod +x /bin/WebVuln-Runner
 
 echo "all done!"
-echo "You can run the program with 'DockerVuln' command"
+echo "You can run the program with 'WebVuln-Runner' command"

@@ -1,6 +1,8 @@
-# DockerVuln
+# WebVuln-Runner
 --------------------------------------
-DockerVuln is a project that facilitates the installation and management of vulnerable application docker containers. It provides both a **TUI (Text User Interface)** for terminal users and a modern **Web Interface** for browser-based management.
+The ultimate Docker-based runner for vulnerable web apps. Instantly deploy OWASP Juice Shop, DVWA, WebGoat, and 15+ pentest labs with a single click.
+
+It provides both a **TUI (Text User Interface)** for terminal users and a modern **Web Interface** for browser-based management.
 
 ## Features
 - **TUI Mode:** Whiptail-based terminal interface.
@@ -9,7 +11,7 @@ DockerVuln is a project that facilitates the installation and management of vuln
 
 ## Educational Concepts
 --------------------------------------
-DockerVuln is designed to help you understand various security concepts.
+WebVuln-Runner is designed to help you understand various security concepts.
 
 ### SQL Injection
 ![SQL Injection](assets/SQL-image.jpeg)
@@ -46,45 +48,45 @@ To stop the container, you can hit the enter and select yes from the incoming ye
 
 ## Prerequisites
 --------------------------------------
-DockerVuln uses dockerCLI and Whiptail. So you have to make sure them already installed. For debian-based, redhat-based and centos-based systems, the install.sh file checks all the prerequisites and install missing ones.
+WebVuln-Runner uses dockerCLI and Whiptail. So you have to make sure them already installed. For debian-based, redhat-based and centos-based systems, the install.sh file checks all the prerequisites and install missing ones.
 
 ## Installation
 --------------------------------------
 ### Debian and Ubuntu
-Kali Linux(debian-based) is the preferred operating system. You can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
+Kali Linux(debian-based) is the preferred operating system. You can install Prerequisites and WebVuln-Runner with the install.sh file. First of all, you need to be root!
 
 ```sh
 sudo su
 wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/debian/install.sh | bash;
 
-DockerVuln
+WebVuln-Runner
 ```
 ### RedHat and Fedora
-For Redhat-based operating system, you can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
+For Redhat-based operating system, you can install Prerequisites and WebVuln-Runner with the install.sh file. First of all, you need to be root!
 
 ```sh
 sudo su
 wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/redhat/install.sh | bash;
 
-DockerVuln
+WebVuln-Runner
 ```
 ### CentOS
-For CentOS operating system, you can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
+For CentOS operating system, you can install Prerequisites and WebVuln-Runner with the install.sh file. First of all, you need to be root!
 
 ```sh
 sudo su
 wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/centos/install.sh | bash;
 
-DockerVuln
+WebVuln-Runner
 ```
 ### Arch Linux
-For Arch Linux based operating systems, you can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
+For Arch Linux based operating systems, you can install Prerequisites and WebVuln-Runner with the install.sh file. First of all, you need to be root!
 
 ```sh
 sudo su
 wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/arch/install.sh | bash;
 
-DockerVuln
+WebVuln-Runner
 ```
 
 ## Supported Applications
