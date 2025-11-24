@@ -13,11 +13,9 @@ It provides both a **TUI (Text User Interface)** for terminal users and a modern
 --------------------------------------
 WebVuln-Runner is designed to help you understand various security concepts.
 
-### SQL Injection
 ![SQL Injection](assets/SQL-image.jpeg)
 
-### Modern vs Traditional Architecture
-![Architecture](assets/traditional-vs-serverless.jpeg)
+
 
 ## Getting Started
 --------------------------------------
