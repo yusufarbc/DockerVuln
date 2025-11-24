@@ -1,10 +1,29 @@
 # DockerVuln
 --------------------------------------
-DockerVuln is a whiptail project that facilitate to installation and management of vulnerable application docker containers. Whiptail is a TUI(Text User Interface) environment running in linux terminal.
+DockerVuln is a project that facilitates the installation and management of vulnerable application docker containers. It provides both a **TUI (Text User Interface)** for terminal users and a modern **Web Interface** for browser-based management.
+
+## Features
+- **TUI Mode:** Whiptail-based terminal interface.
+- **Web Mode:** Modern HTML5 dashboard to view and manage apps.
+- **Extensive Library:** Includes OWASP Juice Shop, DVWA, WebGoat, bWAPP, and many more.
+
+## Educational Concepts
+--------------------------------------
+DockerVuln is designed to help you understand various security concepts.
+
+### SQL Injection
+![SQL Injection](assest/SQL-image.jpeg)
+
+### Modern vs Traditional Architecture
+![Architecture](assest/traditional-vs-serverless.jpeg)
 
 ## Getting Started
 --------------------------------------
-When the application runs, you will see a screen like this. You can select the application you want to start. You probably won't have an application installed on first run. So, no containers can be seen here. But, you can select 'add a new container' and install a new one. 
+### Web Interface
+You can access the static web dashboard by opening `index.html` or visiting our [GitHub Pages](https://yusufarbc.github.io/DockerVuln/).
+
+### TUI Interface
+When the application runs in terminal, you will see a screen like this. You can select the application you want to start.
 
 ![image](https://user-images.githubusercontent.com/77548038/211136750-f430013b-c02e-4a3a-bcfc-859dedc10527.png)
 
@@ -58,6 +77,24 @@ wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/centos/ins
 
 DockerVuln
 ```
+
+## Supported Applications
+--------------------------------------
+- **OWASP Juice Shop**
+- **DVWA (Damn Vulnerable Web Application)**
+- **OWASP WebGoat**
+- **bWAPP**
+- **OWASP Mutillidae II**
+- **VulnLab**
+- **XVWA**
+- **VAmPI**
+- **DVNA**
+- **DVGA**
+- **Hackazon**
+- **Security Shepherd**
+- **OWASP Benchmark**
+- **DVWS**
+- **DSVPWA**
 
 ## Issues
 --------------------------------------

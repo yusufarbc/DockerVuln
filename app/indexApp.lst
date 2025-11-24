@@ -1,13 +1,19 @@
-DEFAULT_PORT	REPOSITORY	DESCRIPTON
-8080	webgoat/webgoat-8.0	WebGoat is a deliberately insecure application
+DEFAULT_PORT	REPOSITORY	DESCRIPTION
+3000	bkimminich/juice-shop	OWASP Juice Shop - Modern web app security training
 80	vulnerables/web-dvwa	Damn Vulnerable Web Application (DVWA)
-80	yavuzlar/vulnlab:latest	A web vulnerability lab project developed by Yavuzlar
-3000	bkimminich/juice-shop	The most modern and sophisticated insecure web-app!
-80	hackersploit/bwapp-docker	This is a simple Docker image for the OWASP bWAPP
-80	justhumanz/web_for_pentest	This was docker version of Web for Pentest
-8080	psiinon/bodgeit	The BodgeIt Store is a vulnerable web app
-8080	aabashkin/niva	NoSQL Injection Vulnerable App (NIVA) 
+8080	webgoat/webgoat	OWASP WebGoat - A deliberately insecure application
+80	raesene/bwapp	bWAPP - Buggy Web Application
+80	citizenstig/nowasp	OWASP Mutillidae II
+80	s4n7h0/xvwa	Xtreme Vulnerable Web Application (XVWA)
+5000	erev0s/vampi	VAmPI - Vulnerable API (Flask)
+9090	appsecco/dvna	Damn Vulnerable NodeJS Application (DVNA)
+80	yavuzlar/vulnlab:latest	VulnLab - Web vulnerability lab by Yavuzlar
+80	acgpiano/sqli-labs	SQLi-Labs - SQL Injection practice
 80	sasanlabs/owasp-vulnerableapp	OWASP VulnerableApp
-8000	pygoat/pygoat	intentionally web Application Security in django 
-80	roottusk/vapi	vAPI Vulnerable Adversely Programmed Interface
-80	tuxotron/xvwa	Xtreme Vulnerable Web Application.
+8000	pygoat/pygoat	PyGoat - Vulnerable Django Application
+5013	dolevf/dvga	Damn Vulnerable GraphQL Application (DVGA)
+80	rapid7/hackazon	Hackazon - Vulnerable E-commerce App
+8080	owasp/security-shepherd	OWASP Security Shepherd
+8443	owasp/benchmark	OWASP Benchmark
+80	snoopysecurity/dvws	Damn Vulnerable Web Services (DVWS)
+8000	sgabe/dsvpwa	Damn Simple Vulnerable Python Web Application
