@@ -13,8 +13,8 @@ dnf -y install docker-ce
 systemctl start docker.service
 
 cd /bin/
-wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/indexApp.lst
-wget -O DockerVuln https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/app/DockerVuln
+wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/indexApp.lst
+wget -O DockerVuln https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/DockerVuln
 chmod +x /bin/DockerVuln
 
 echo "all done!"

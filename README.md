@@ -11,8 +11,11 @@ DockerVuln is a project that facilitates the installation and management of vuln
 --------------------------------------
 DockerVuln is designed to help you understand various security concepts.
 
-![SQL Injection](assest/SQL-image.jpeg)
+### SQL Injection
+![SQL Injection](assets/SQL-image.jpeg)
 
+### Modern vs Traditional Architecture
+![Architecture](assets/traditional-vs-serverless.jpeg)
 
 ## Getting Started
 --------------------------------------
@@ -52,7 +55,7 @@ Kali Linux(debian-based) is the preferred operating system. You can install Prer
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/debian-ubuntu/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/debian/install.sh | bash;
 
 DockerVuln
 ```
@@ -61,7 +64,7 @@ For Redhat-based operating system, you can install Prerequisites and DockerVuln 
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/redhat-fedora/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/redhat/install.sh | bash;
 
 DockerVuln
 ```
@@ -70,7 +73,16 @@ For CentOS operating system, you can install Prerequisites and DockerVuln with t
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/centos/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/centos/install.sh | bash;
+
+DockerVuln
+```
+### Arch Linux
+For Arch Linux based operating systems, you can install Prerequisites and DockerVuln with the install.sh file. First of all, you need to be root!
+
+```sh
+sudo su
+wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/arch/install.sh | bash;
 
 DockerVuln
 ```
