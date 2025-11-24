@@ -20,7 +20,7 @@ WebVuln-Runner is designed to help you understand various security concepts.
 ## Getting Started
 --------------------------------------
 ### Web Interface
-You can access the static web dashboard by opening `index.html` or visiting our [GitHub Pages](https://yusufarbc.github.io/DockerVuln/).
+You can access the static web dashboard by opening `index.html` or visiting our [GitHub Pages](https://yusufarbc.github.io/WebVuln-Runner/).
 
 ### TUI Interface
 When the application runs in terminal, you will see a screen like this. You can select the application you want to start.
@@ -55,7 +55,7 @@ Kali Linux(debian-based) is the preferred operating system. You can install Prer
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/debian/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/debian/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -64,7 +64,7 @@ For Redhat-based operating system, you can install Prerequisites and WebVuln-Run
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/redhat/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/redhat/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -73,7 +73,7 @@ For CentOS operating system, you can install Prerequisites and WebVuln-Runner wi
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/centos/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/centos/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -82,7 +82,7 @@ For Arch Linux based operating systems, you can install Prerequisites and WebVul
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/installers/arch/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/arch/install.sh | bash;
 
 WebVuln-Runner
 ```

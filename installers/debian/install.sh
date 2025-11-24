@@ -13,8 +13,8 @@ apt -y install docker.io
 systemctl start docker.service
 
 cd /bin/
-wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/indexApp.lst
-wget -O WebVuln-Runner https://raw.githubusercontent.com/yusufarbc/DockerVuln/main/src/WebVuln-Runner
+wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/src/indexApp.lst
+wget -O WebVuln-Runner https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/src/WebVuln-Runner
 chmod +x /bin/WebVuln-Runner
 
 echo "all done!"
