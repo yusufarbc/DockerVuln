@@ -39,7 +39,7 @@ It offers both a fast **terminal TUI** and a modern **static web dashboard** for
 - **Host Isolation:** Keeps your host clean while testing vulnerabilities.
 - **Extensible Index:** Add new labs by editing `src/indexApp.lst`.
 - **Minimal Footprint:** Only Docker and Whiptail (newt) are required.
-- **Multi-Distro Support:** Debian/Ubuntu/Kali, RedHat/Fedora, CentOS, Arch.
+- **Multi-Distro Support:** Debian/Ubuntu/Kali, RedHat/Fedora, Arch.
 
 ## Educational Concepts
 Use WebVuln-Runner to explore common web security weaknesses (OWASP Top 10, injections, auth flaws, insecure deserialization, API risks) with contained, disposable targets for safe practice.
@@ -108,15 +108,7 @@ wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/instal
 
 WebVuln-Runner
 ```
-### CentOS
-Run as root:
 
-```sh
-sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/centos/install.sh | bash;
-
-WebVuln-Runner
-```
 ### Arch Linux
 Run as root:
 
