@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # The installation file supports debian-based systems
 
@@ -9,12 +10,13 @@ if [ "$EUID" -ne 0 ]
 fi
 
 apt update
-apt -y install docker.io
+apt -y install docker.io whiptail wget
 systemctl start docker.service
+systemctl enable docker.service
 
 cd /bin/
-wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/src/indexApp.lst
-wget -O WebVuln-Runner https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/src/WebVuln-Runner
+wget -O indexApp.lst https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/src/indexApp.lst
+wget -O WebVuln-Runner https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/src/webvuln-runner
 chmod +x /bin/WebVuln-Runner
 
 echo "all done!"

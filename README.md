@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo-bgwhite.png" alt="WebVuln-Runner Logo" width="400"/>
+<img src="assets/logo.png" alt="WebVuln-Runner Logo" width="400"/>
 
 # WebVuln-Runner
 
@@ -55,14 +55,14 @@ Use WebVuln-Runner to explore common web security weaknesses (OWASP Top 10, inje
 sudo su
 
 # Debian / Ubuntu / Kali
-wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/debian/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/debian/install.sh | bash;
 
 # Run after install
 WebVuln-Runner
 ```
 
 ### Web Interface
-Open `index.html` locally or visit [GitHub Pages](https://yusufarbc.github.io/WebVuln-Runner/) for the static dashboard.
+Open `index.html` locally or visit [GitHub Pages](https://yusufarbc.github.io/webvuln-runner/) for the static dashboard.
 
 ### TUI Interface
 Launching `WebVuln-Runner` presents a menu where you can install & start labs, remove containers, or exit. Use arrow keys to navigate; Tab switches buttons.
@@ -95,7 +95,7 @@ Example (run as root):
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/debian/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/debian/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -104,7 +104,7 @@ Run as root:
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/redhat/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/redhat/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -113,7 +113,7 @@ Run as root:
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/centos/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/centos/install.sh | bash;
 
 WebVuln-Runner
 ```
@@ -122,7 +122,7 @@ Run as root:
 
 ```sh
 sudo su
-wget -O - https://raw.githubusercontent.com/yusufarbc/WebVuln-Runner/main/installers/arch/install.sh | bash;
+wget -O - https://raw.githubusercontent.com/yusufarbc/webvuln-runner/main/installers/arch/install.sh | bash;
 
 WebVuln-Runner
 ```
