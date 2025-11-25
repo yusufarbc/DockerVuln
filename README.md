@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.png" alt="WebVuln-Runner Logo" width="200"/>
+
 # WebVuln-Runner
 
 [![Stars](https://img.shields.io/github/stars/yusufarbc/webvuln-runner?style=flat-square)](https://github.com/yusufarbc/webvuln-runner/stargazers)
