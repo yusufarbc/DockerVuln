@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="WebVuln-Runner Logo" width="200"/>
+<img src="assets/logo-removebg.png" alt="WebVuln-Runner Logo" width="200"/>
 
 # WebVuln-Runner
 
