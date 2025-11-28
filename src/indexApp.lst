@@ -17,3 +17,4 @@ DEFAULT_PORT	REPOSITORY	DESCRIPTION
 8443	owasp/benchmark	OWASP Benchmark
 80	snoopysecurity/dvws	Damn Vulnerable Web Services (DVWS)
 8000	sgabe/dsvpwa	Damn Simple Vulnerable Python Web Application
+8000	yusufarbc/apigoat	APIGoat - Vulnerable API (OWASP Top 10 2023)
